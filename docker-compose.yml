@@ -1,0 +1,7 @@
+ouimeaux:
+  image: 'aktur/ouimeaux'
+  # restart: always
+  ports:
+    - "5000:5000"
+  net: "host"
+  
