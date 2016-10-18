@@ -12,9 +12,12 @@
 * you can also run this with the following docker-compose.yml:
 
 
-ouimeaux:
+ouimeaux: 
+
   image: "aktur/ouimeaux"
+  
   net: "host"
+
 
 
 Access the ouimeaux server: http://docker-machine-ip:15000
