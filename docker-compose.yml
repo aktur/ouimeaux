@@ -1,7 +1,8 @@
 ouimeaux:
   image: 'aktur/ouimeaux'
   # restart: always
-  ports:
-    - "5000:5000"
+#  ports:
+#    - "15000:15000"
+#    - "54321:54321"
   net: "host"
   
