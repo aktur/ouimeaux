@@ -19,18 +19,18 @@ Features
 
 Docker
 ------
-* build image
 
-``sudo docker build -t aktur/ouimeaux``
-
-
-* run ouimeaux server in the container (note: server port is 15000 due to the confilct on Synology NAS with the default DSM port)
+* run ouimeaux server in the container (note: the server port is 15000 due to the confilct on Synology NAS with the default DSM port):
 
 ``sudo docker run --detach --net=host --name wemo aktur/ouimeaux``
 
 
 
-* you can also run this with the following docker-compose.yml:
+* build image (optional, when you have locak changes to the Dockerfile):
+
+``sudo docker build -t aktur/ouimeaux``
+
+
 
 
 Access the ouimeaux server: http://docker-machine-ip:15000
