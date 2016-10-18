@@ -19,6 +19,7 @@ Features
 
 Docker
 ------
+* install *docker* (best thing since Linux and Apache :) )
 
 * run ouimeaux server in the container (note: the server port is 15000 due to the confilct on Synology NAS with the default DSM port):
 
@@ -26,7 +27,7 @@ Docker
 
 
 
-* build image (optional, when you have locak changes to the Dockerfile):
+* build image (optional, when you have local changes to the Dockerfile):
 
 ``sudo docker build -t aktur/ouimeaux``
 
